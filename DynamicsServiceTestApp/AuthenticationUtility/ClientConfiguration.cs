@@ -22,9 +22,9 @@ namespace AuthenticationUtility
             // You can find that under AAD in the azure portal
             ActiveDirectoryResource = "https://fyfdev342c549d7c895a780devaos.cloudax.dynamics.com", // Don't have a trailing "/". Note: Some of the sample code handles that issue.
             ActiveDirectoryTenant = "https://login.windows.net/FISDC.onmicrosoft.com", // Some samples: https://login.windows.net/yourtenant.onmicrosoft.com, https://login.windows.net/microsoft.com
-            ActiveDirectoryClientAppId = "d9625121-af8e-4ea2-91fe-7728c8925bd5",
+            ActiveDirectoryClientAppId = "",
             // Insert here the application secret when authenticate with AAD by the application
-            ActiveDirectoryClientAppSecret = "59qMxtH-Y-TaYZe-~rtzJ3wi4t7DHaq8uU",
+            ActiveDirectoryClientAppSecret = "",
 
             // Change TLS version of HTTP request from the client here
             // Ex: TLSVersion = "1.2"
